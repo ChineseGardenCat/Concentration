@@ -13,9 +13,9 @@
 		A6AEC4FD214A3DCF00C9FF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AEC4FB214A3DCF00C9FF5C /* LaunchScreen.storyboard */; };
 		A6AEC508214A3DCF00C9FF5C /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEC507214A3DCF00C9FF5C /* ConcentrationTests.swift */; };
 		A6AEC513214A3DCF00C9FF5C /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEC512214A3DCF00C9FF5C /* ConcentrationUITests.swift */; };
-		A6AEC526214A3F8D00C9FF5C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEC524214A3F8D00C9FF5C /* Concentration.swift */; };
-		A6AEC527214A3F8D00C9FF5C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEC525214A3F8D00C9FF5C /* Card.swift */; };
 		A6AEC52A214A3FB000C9FF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AEC528214A3FB000C9FF5C /* Main.storyboard */; };
+		A6AEC52C214B269C00C9FF5C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEC52B214B269C00C9FF5C /* Concentration.swift */; };
+		A6AEC52E214B26B100C9FF5C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEC52D214B26B100C9FF5C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +48,9 @@
 		A6AEC50E214A3DCF00C9FF5C /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AEC512214A3DCF00C9FF5C /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		A6AEC514214A3DCF00C9FF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6AEC524214A3F8D00C9FF5C /* Concentration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Concentration.swift; path = ../../../../Desktop/Concentration/Concentration.swift; sourceTree = "<group>"; };
-		A6AEC525214A3F8D00C9FF5C /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../../../../Desktop/Concentration/Card.swift; sourceTree = "<group>"; };
 		A6AEC529214A3FB000C9FF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/Concentration/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6AEC52B214B269C00C9FF5C /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		A6AEC52D214B26B100C9FF5C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +101,14 @@
 		A6AEC4F1214A3DCC00C9FF5C /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				A6AEC525214A3F8D00C9FF5C /* Card.swift */,
-				A6AEC524214A3F8D00C9FF5C /* Concentration.swift */,
 				A6AEC4F2214A3DCC00C9FF5C /* AppDelegate.swift */,
 				A6AEC4F4214A3DCC00C9FF5C /* ViewController.swift */,
 				A6AEC528214A3FB000C9FF5C /* Main.storyboard */,
 				A6AEC4F9214A3DCF00C9FF5C /* Assets.xcassets */,
 				A6AEC4FB214A3DCF00C9FF5C /* LaunchScreen.storyboard */,
 				A6AEC4FE214A3DCF00C9FF5C /* Info.plist */,
+				A6AEC52B214B269C00C9FF5C /* Concentration.swift */,
+				A6AEC52D214B26B100C9FF5C /* Card.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -263,9 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6AEC4F5214A3DCC00C9FF5C /* ViewController.swift in Sources */,
-				A6AEC527214A3F8D00C9FF5C /* Card.swift in Sources */,
-				A6AEC526214A3F8D00C9FF5C /* Concentration.swift in Sources */,
 				A6AEC4F3214A3DCC00C9FF5C /* AppDelegate.swift in Sources */,
+				A6AEC52C214B269C00C9FF5C /* Concentration.swift in Sources */,
+				A6AEC52E214B26B100C9FF5C /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
