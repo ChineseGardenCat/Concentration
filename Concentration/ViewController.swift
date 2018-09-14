@@ -53,15 +53,15 @@ class ViewController: UIViewController {
     
     private var emojiArray = ["👻","🎃","🤩","🤬","👽","💩","🤑","👹"]
     
-    private var emojiDict = [Int : String]()
+    private var emojiDict = [Card : String]()
     
     private func emoji(for card: Card) -> String {
-        if emojiDict[card.identifier] == nil{
+        if emojiDict[card] == nil{
             if emojiArray.count > 0{
-                emojiDict[card.identifier] = emojiArray.remove(at: emojiArray.count.randomInt)
+                emojiDict[card] = emojiArray.remove(at: emojiArray.count.randomInt)
             }
         }
-        return emojiDict[card.identifier] ?? "?"
+        return emojiDict[card] ?? "?"
     }
     
 }
