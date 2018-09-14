@@ -13,7 +13,6 @@ struct Card: Hashable {
         return lhs.identifier == rhs.identifier
     }
     
-    
     var hashValue: Int{
         return identifier
     }
